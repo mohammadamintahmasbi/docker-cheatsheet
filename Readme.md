@@ -35,7 +35,8 @@ It enables features like command-line editing, colored output, and a proper shel
 
 ### C. Clear all unused partitions:
 
-You know the parts of an app that is available with docker. You have container, network, volumn and etc. Some times you remove or make disable one of these parts because you dont need it, but other parts that has relation with it maybe available and use memory. So you can remove them but do you remember all parts?
+You know the parts of an app that is available with docker. You have container, network, volumn and etc.
+Sometimes you remove or make disable one of these parts because you dont need it, but other parts that has relation with it maybe available and use memory. So you can remove them but do you remember all parts?
 So you can use this dangerous command. **docker system prune**
 
 **command:** ``` docker system prune --all ```

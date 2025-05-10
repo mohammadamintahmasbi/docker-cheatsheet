@@ -14,6 +14,8 @@ this will store an image from your container.
 
 you can set specific network to this command too.
 
+---
+
 ### B. Go to docker container:
 
 As you now docker containers like a small server with their os, so you can run command in there like terminal. you can use this command:
@@ -26,4 +28,17 @@ The -it flag is a combination of two option:
 It means that you can interact with a container by a shell in it. you can use commands and inputs.
 
 ##### 2. -t (TTY):
-This option allocates a pseudo-TTY (teletypewriter), which provides a terminal interface inside the container. It enables features like command-line editing, colored output, and a proper shell prompt, making the session behave like a typical terminal.
+This option allocates a pseudo-TTY (teletypewriter), which provides a terminal interface inside the container.
+It enables features like command-line editing, colored output, and a proper shell prompt, making the session behave like a typical terminal.
+
+---
+
+### C. Clear all unused partitions:
+
+You know the parts of an app that is available with docker. You have container, network, volumn and etc. Some times you remove or make disable one of these parts because you dont need it, but other parts that has relation with it maybe available and use memory. So you can remove them but do you remember all parts?
+So you can use this dangerous command. **docker system prune**
+
+**command:** ``` docker system prune --all ```
+
+This command remove all unuse containers, network, volumn and etc. You can make your disk free from unuse parts but be carefull this command remove all unuse part of you docker apps. All unuse volumns this mean you loss the data that store in volumns. this command remove stop containers too. for example you stop a container for some reasons then you run this command. You lost your stoped container. Sorry.
+

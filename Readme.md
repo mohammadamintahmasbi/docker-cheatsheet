@@ -43,3 +43,9 @@ So you can use this dangerous command. **docker system prune**
 
 This command remove all unuse containers, network, volumn and etc. You can make your disk free from unuse parts but be carefull this command remove all unuse part of you docker apps. All unuse volumns this mean you loss the data that store in volumns. this command remove stop containers too. for example you stop a container for some reasons then you run this command. You lost your stoped container. Sorry.
 
+---
+
+### D. See what you have:
+You can see all part of your containers like container id, image, command, port, name, create date and etc.
+
+**command:** ``` docker ps ```

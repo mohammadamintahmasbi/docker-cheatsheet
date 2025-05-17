@@ -49,3 +49,19 @@ This command remove all unuse containers, network, volumn and etc. You can make 
 You can see all part of your containers like container id, image, command, port, name, create date and etc.
 
 **command:** ``` docker ps ```
+
+you can see just your containers with this command :
+
+**command:** ``` docker container ls ```
+
+This command work for image and networks too.
+
+..* network:
+**command:** ``` docker network ls ```
+
+..* image:
+**command:** ``` docker image ls ```
+
+..* volume:
+**command:** ``` docker volume ls ```
+

@@ -56,15 +56,15 @@ you can see just your containers with this command :
 
 This command work for image and networks too.
 
-> * network:
+* network:
+<br>
+**command:** ``` docker network ls ```
 
-> **command:** ``` docker network ls ```
+* image:
+<br>
+**command:** ``` docker image ls ```
 
-> * image:
-
-> **command:** ``` docker image ls ```
-
-> * volume:
-
-> **command:** ``` docker volume ls ```
+* volume:
+<br>
+**command:** ``` docker volume ls ```
 

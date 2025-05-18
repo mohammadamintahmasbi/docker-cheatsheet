@@ -65,3 +65,11 @@ This command work for image and networks too.
 * volume:
 ``` docker volume ls ```
 
+---
+
+## Docker components
+
+Let's talk about different parts of docker like docker compose, Dockerfile and concepts like network, image, volume etc.
+
+#### Docker Image:
+

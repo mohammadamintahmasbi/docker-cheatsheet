@@ -72,4 +72,6 @@ This command work for image and networks too.
 Let's talk about different parts of docker like docker compose, Dockerfile and concepts like network, image, volume etc.
 
 #### Docker Image:
+Docker images are a packages, languages and tools of a software that you can pull it from specific repository.
+commands for pulling images can write in dockerfile (we talk about it in its section).
 

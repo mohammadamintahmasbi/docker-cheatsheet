@@ -67,6 +67,15 @@ This command work for image and networks too.
 
 ---
 
+### E. Copy from Container to local, from local to container:
+Sometimes you need copy a file, dump or sth else from container to your local or copy sth from your machine to container.
+In this situation you can use this command:
+
+**command:** ``` docker cp <source> <destination> ```
+
+You can use following method for addressing docker container: ``` <container_name or container_id>:<path>``` 
+You can use this as source or destination.
+
 ## Docker components
 
 Let's talk about different parts of docker like docker compose, Dockerfile and concepts like network, image, volume etc.

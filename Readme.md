@@ -84,6 +84,7 @@ Let's talk about different parts of docker like docker compose, Dockerfile and c
 Docker images are a packages, languages and tools of a software that you can pull it from specific repository.
 commands for pulling images can write in dockerfile (we talk about it in its section).
 you can pull image with docker pull <image-name> for example Hello-World is an image that use for testing docker connection.
+
 **command:** ``` docker pull <image-name> ```
 
 

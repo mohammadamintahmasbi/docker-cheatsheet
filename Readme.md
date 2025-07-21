@@ -92,3 +92,35 @@ you can pull image with docker pull <image-name> for example Hello-World is an i
 Dockerfile is a file that you write steps of creating container in it. you can write pulling commands, copy code on container, exporting ports and other commands that you need. you can manage your dockerfile with docker-compose (I explain this in another section).
 
 Now you can see example of Dockerfile:
+
+```dockerfile
+
+# Use the official Python image as the base image
+FROM python:3.9
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the requirements file to the working directory
+COPY requirements.txt .
+
+# Install the project dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the project files to the working directory
+COPY . .
+
+# Expose the port on which the Django development server will run
+EXPOSE 8000
+
+ENV DJANGO_SETTINGS_MODULE=config.settings
+
+
+# Run the Django development server
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+
+```

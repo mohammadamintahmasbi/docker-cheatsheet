@@ -87,4 +87,8 @@ you can pull image with docker pull <image-name> for example Hello-World is an i
 
 **command:** ``` docker pull <image-name> ```
 
+---
+#### Dockerfile:
+Dockerfile is a file that you write steps of creating container in it. you can write pulling commands, copy code on container, exporting ports and other commands that you need. you can manage your dockerfile with docker-compose (I explain this in another section).
 
+Now you can see example of Dockerfile:
